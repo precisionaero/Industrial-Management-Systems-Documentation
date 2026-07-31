@@ -1,4 +1,4 @@
-# Project Name
+# Industrial Management System
 
 An open-source, modular, headless operations platform for
 manufacturing, service, and industrial organizations.
