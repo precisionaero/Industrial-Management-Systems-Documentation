@@ -18,9 +18,73 @@ decisions.
 ---
 ## 2. Scope
 
+This project defines and develops an open-source, modular software platform for the management, coordination, and traceability of industrial and technical work.
+
+The system is intended to provide a common, headless core that can be used by organizations in different industries and configured for different operational requirements. The Core shall provide common services such as work management, data management, workflow control, auditability, communication, and integration with external systems.
+
+The project shall support independent client applications, including web, mobile, desktop, command-line, and organization-specific interfaces. Client applications shall communicate with the Core through documented interfaces and shall not require direct access to internal Core components or databases.
+
+The project shall also support integration with physical equipment and external systems. This may include industrial machinery, sensors, switches, controllers, scanners, manufacturing equipment, and other devices capable of communicating through supported interfaces.
+
+The project includes the development of:
+
+Core software services.
+Application programming interfaces (APIs).
+Event and messaging interfaces.
+Data and workflow models.
+Industrial and machine integration interfaces.
+Reference client applications.
+Software development kits and integration tools.
+Documentation and technical specifications.
+Testing and verification methods.
+Deployment, backup, recovery, and operational procedures.
+Security and access-control mechanisms.
+
+The project shall provide a general-purpose foundation rather than a system limited to a single industry or organization.
+
+Industry-specific functionality shall be implemented through appropriate modules, configurations, integrations, or client applications whenever reasonably practical.
+
+The project does not require every organization to use the same user interface, workflow, configuration, or operational procedure. Organizations shall be able to develop or select their own client applications and integrations while using the common Core services.
+
+The project scope includes the design and development of the platform and its supporting technical ecosystem. It does not require the project to provide every possible industry-specific application, hardware device, or third-party integration.
+
 ## 3. Project Mission
 
+The mission of this project is to create a reliable, secure, maintainable, and open foundation for managing technical and industrial work.
+
+The project shall make it possible for organizations to build their own operational systems without having to independently develop the underlying infrastructure required for data management, workflow control, traceability, security, communication, and equipment integration.
+
+The project shall emphasize simplicity, modularity, interoperability, documentation, and long-term maintainability.
+
+The project shall be designed so that:
+
+A small organization can deploy and operate the system without unnecessary complexity.
+A larger organization can extend the system to support more complex operations.
+Different organizations can develop their own user interfaces and workflows.
+Industrial equipment can communicate with the system through defined interfaces.
+Developers and students can understand, test, modify, and extend the system without requiring knowledge of the entire codebase.
+The system can operate independently of any particular client application.
+The system can be deployed locally, remotely, or in a cloud environment.
+Data can be protected against loss, corruption, unauthorized modification, and unauthorized access.
+Changes to critical data and system behavior can be traced and verified.
+
+The project shall favor the simplest solution that satisfies the approved requirements and shall resist unnecessary complexity, unnecessary dependencies, and unnecessary specialization.
+
+The long-term objective is to establish an open-source platform that can serve as dependable technical infrastructure for organizations performing industrial, manufacturing, maintenance, aerospace, and other technical work.
+
 ## 4. Fundamental Principles
+| ID        | Principle             | Mandatory |
+| --------- | --------------------- | --------- |
+| CON-P-001 | KISS                  | Yes       |
+| CON-P-002 | Core independence     | Yes       |
+| CON-P-003 | API-first             | Yes       |
+| CON-P-004 | Modular architecture  | Yes       |
+| CON-P-005 | Client independence   | Yes       |
+| CON-P-006 | Security by design    | Yes       |
+| CON-P-007 | Auditability          | Yes       |
+| CON-P-008 | Documentation control | Yes       |
+| CON-P-009 | Open source           | Yes       |
+| CON-P-010 | Human oversight       | Yes       |
 
 ### 4.1 KISS — Keep It Simple
 ### 4.2 Core Isolation
