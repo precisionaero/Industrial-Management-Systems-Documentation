@@ -11,68 +11,153 @@ Classification: Public
 ---
 
 ## 1. Purpose
-This document defines the fundamental principles that govern
-the design, development, operation, and evolution of the project.
+This Constitution defines the basic principles for the project.
 
-These principles take precedence over individual implementation
-decisions.
+The Constitution defines the rules for the design, development, operation, and maintenance of the system.
+
+The Constitution also defines the rules for project documentation and project development.
+
+All project requirements, designs, code, and procedures shall follow this Constitution.
+
+A change to this Constitution shall follow the project change control process.
 
 ---
 ## 2. Scope
 
-This project defines and develops an open-source, modular software platform for the management, coordination, and traceability of industrial and technical work.
+This project defines and develops an open-source software platform for industrial and technical work.
 
-The system is intended to provide a common, headless core that can be used by organizations in different industries and configured for different operational requirements. The Core shall provide common services such as work management, data management, workflow control, auditability, communication, and integration with external systems.
+The platform shall provide a common Core.
 
-The project shall support independent client applications, including web, mobile, desktop, command-line, and organization-specific interfaces. Client applications shall communicate with the Core through documented interfaces and shall not require direct access to internal Core components or databases.
+The Core shall operate without a graphical user interface.
 
-The project shall also support integration with physical equipment and external systems. This may include industrial machinery, sensors, switches, controllers, scanners, manufacturing equipment, and other devices capable of communicating through supported interfaces.
+The Core shall provide services for:
 
-The project includes the development of:
+Work management.
+Data management.
+Workflow management.
+User access control.
+Audit records.
+System events.
+External system integration.
+Equipment integration.
+Data backup and recovery.
 
-Core software services.
-Application programming interfaces (APIs).
-Event and messaging interfaces.
-Data and workflow models.
-Industrial and machine integration interfaces.
-Reference client applications.
-Software development kits and integration tools.
-Documentation and technical specifications.
-Testing and verification methods.
-Deployment, backup, recovery, and operational procedures.
-Security and access-control mechanisms.
+The platform shall support different client applications.
 
-The project shall provide a general-purpose foundation rather than a system limited to a single industry or organization.
+Client applications may include:
 
-Industry-specific functionality shall be implemented through appropriate modules, configurations, integrations, or client applications whenever reasonably practical.
+Web applications.
+Mobile applications.
+Desktop applications.
+Command-line applications.
+Custom applications.
 
-The project does not require every organization to use the same user interface, workflow, configuration, or operational procedure. Organizations shall be able to develop or select their own client applications and integrations while using the common Core services.
+Client applications shall communicate with the Core through defined interfaces.
 
-The project scope includes the design and development of the platform and its supporting technical ecosystem. It does not require the project to provide every possible industry-specific application, hardware device, or third-party integration.
+Client applications shall not require direct access to the Core database.
+
+The platform shall support connections to external equipment and systems.
+
+These connections may include:
+
+Sensors.
+Switches.
+Controllers.
+Industrial machines.
+Manufacturing equipment.
+Scanners.
+Other computer systems.
+
+The platform shall support local deployment.
+
+The platform shall also support cloud deployment.
+
+The platform shall support use by organizations with different operational needs.
+
+An organization shall be able to use its own client applications and workflows.
+
+The project shall provide a common technical foundation.
+
+The project shall not require all organizations to use the same client application.
+
+The project shall not require all organizations to use the same workflow.
+
+Industry-specific functions shall be separate from the Core when practical.
+
+The project includes:
+
+Core software.
+APIs.
+Event interfaces.
+Data models.
+Workflow models.
+Equipment interfaces.
+Reference applications.
+Software development kits.
+Integration tools.
+Technical documentation.
+Test methods.
+Deployment procedures.
+Backup procedures.
+Recovery procedures.
+Security controls.
+
+The project does not include every industry-specific application.
+
+The project does not require the project maintainers to develop every possible equipment interface.
+
+Organizations may develop their own applications and interfaces.
 
 ## 3. Project Mission
 
-The mission of this project is to create a reliable, secure, maintainable, and open foundation for managing technical and industrial work.
+The mission of this project is to provide a reliable and open foundation for industrial and technical work.
 
-The project shall make it possible for organizations to build their own operational systems without having to independently develop the underlying infrastructure required for data management, workflow control, traceability, security, communication, and equipment integration.
+The project shall reduce the need for each organization to develop the same basic software functions.
 
-The project shall emphasize simplicity, modularity, interoperability, documentation, and long-term maintainability.
+The project shall provide common functions for:
 
-The project shall be designed so that:
+Data management.
+Work management.
+Workflow management.
+Traceability.
+Security.
+Audit records.
+System integration.
+Equipment integration.
 
-A small organization can deploy and operate the system without unnecessary complexity.
-A larger organization can extend the system to support more complex operations.
-Different organizations can develop their own user interfaces and workflows.
-Industrial equipment can communicate with the system through defined interfaces.
-Developers and students can understand, test, modify, and extend the system without requiring knowledge of the entire codebase.
-The system can operate independently of any particular client application.
-The system can be deployed locally, remotely, or in a cloud environment.
-Data can be protected against loss, corruption, unauthorized modification, and unauthorized access.
-Changes to critical data and system behavior can be traced and verified.
+The project shall make these functions available through defined interfaces.
 
-The project shall favor the simplest solution that satisfies the approved requirements and shall resist unnecessary complexity, unnecessary dependencies, and unnecessary specialization.
+The project shall allow organizations to develop their own applications.
 
-The long-term objective is to establish an open-source platform that can serve as dependable technical infrastructure for organizations performing industrial, manufacturing, maintenance, aerospace, and other technical work.
+The project shall allow organizations to develop their own workflows.
+
+The project shall allow organizations to connect their equipment and other systems.
+
+The project shall support both small and large organizations.
+
+The project shall remain simple enough for a small organization to operate.
+
+The project shall remain modular enough for a large organization to extend.
+
+The project shall be understandable to developers with different levels of experience.
+
+The project shall support student developers and new contributors.
+
+The project shall use clear documentation to reduce the need for knowledge of the complete system.
+
+The project shall use the simplest solution that meets the approved requirements.
+
+The project shall not add complexity without a defined need.
+
+The project shall not depend on a specific client application.
+
+The project shall not depend on a specific deployment environment.
+
+The project shall protect system data from loss, corruption, unauthorized access, and unauthorized change.
+
+The project shall provide traceability for changes to important system data and system functions.
+
+The long-term mission is to provide an open-source technical foundation for industrial, manufacturing, maintenance, aerospace, and other technical operations.
 
 ## 4. Fundamental Principles
 | ID        | Principle             | Mandatory |
